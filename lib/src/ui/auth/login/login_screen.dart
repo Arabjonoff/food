@@ -27,8 +27,9 @@ class LoginScreen extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(left: 16.0),
-            child: TextButton(onPressed: (){}, child: Text('Forgot passcode?',style: TextStyle(color: Colors.red),)),
-          )
+            child: TextButton(onPressed: (){
+            }, child: Text('Forgot passcode?',style: TextStyle(color: Colors.red),)),
+          ),
         ],
       ),
     );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food/src/ui/auth/tabbar_menu.dart';
+import 'package:food/src/ui/menu/home/home_screnn.dart';
 import 'package:food/src/ui/menu/main_screen.dart';
 import 'package:food/src/ui/onboard/onboard_screen.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MainScreen()
+      home: TabBarMenuScreen()
     );
   }
 }

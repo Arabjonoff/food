@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food/src/ui/menu/home/home_screnn.dart';
+import 'package:food/src/ui/menu/home/product_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -9,9 +11,7 @@ class MainScreen extends StatefulWidget {
 
 
 List<Widget> _screen = [
-  Container(
-    color: Colors.black,
-  ),
+  HomeScreen(),
   Container(
     color: Colors.yellow,
   ),
